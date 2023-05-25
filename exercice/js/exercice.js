@@ -58,7 +58,7 @@ alert(prenom);
 
 // Différent types de fonctions:
 // 1- une fonction avec au moin un paramètre sans valeur de retour
-//pas de retour du fils sandwich 
+//pas de retour du fils sandwich
 // 2- une fonction avec au moin un paramètre avec valeur de retour
 //retour achete la baguette
 // 3- une fonction sans paramètre avec valeur de retour
@@ -66,6 +66,8 @@ alert(prenom);
 // 4- une fonction sans paramètre sans valeur de retour La fonction alerte
 //va te changer les idée
 //comme la fonction alert
+
+
 
 
 
