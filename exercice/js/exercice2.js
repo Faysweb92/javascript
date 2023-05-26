@@ -3,7 +3,7 @@ var nb2 = 7;
 
 var nb3 = nb1 % nb2;
 document.write(nb3);
-²console.log(typeof nb1);
+console.log(typeof nb1);
 alert(nb1);
 
 
