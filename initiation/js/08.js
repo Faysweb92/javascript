@@ -52,4 +52,6 @@ for (var mesSous = 1000; mesSous < 2000 ; mesSous += 50) {
 document.write("<h3>Il aura fallu " + tps + " mois.</h3>");
 
 
+
+
 /*FIN*/
