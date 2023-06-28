@@ -1,3 +1,5 @@
+
+// le 25/06/2023
 // var largeur = 4;
 // var longueur =2;
 // var hauteur = 3;
@@ -52,6 +54,29 @@
 // var age = 18;
 // var message = (age >= 18) ? "adulte" : "mineur";
 // console.log(message);
+
+// le 28/06/2023
+
+var tab = ["banane", "pomme", "mangue"] 
+tab.splice(2, 0, "fraise");
+console.log(tab);
+
+tab.shift()
+console.log(tab)
+tab.fill("goyave")
+console.log(tab)
+// à partir de l'indice pomme donc 1 et on pousse manque
+// // qui sera l'indice 3 donc fraise sera en indice 2
+
+var result = maxmin(2, 5, true);
+console.log(" Le resultat de la fonction maxmin est: " + result);
+
+var result2 = maxmin(2, 5, false);
+console.log(" Le resultat de la fonction maxmin est: " + result2);
+
+
+
+
 
 
 
