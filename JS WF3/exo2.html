@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Exercice simple sur jQuery</title>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="exo2.js" defer></script>
+</head>
+
+<body>
+  <select id="dropdown">
+    <option value="1">Option 1</option>
+    <option value="2">Option 2</option>
+    <option value="3">Option 3</option>
+  </select>
+  <p id="message"></p>
+
+  <script>
+    $("#dropdown").on("change", function () {
+      $("#message").text("vous avez choisi l'option: " + $("#dropdown").val() )
+        
+      })
+
+
+  </script>
+
+
+</body>
+
+</html>
+<!-- 
+//     L'objectif de cet exercice est d'ecrire le code jquery pour afficher un message différent en fonction de l'option sélectionnée.
+
+//     Le id="dropdown" s'écrit dans jquiery (#dropdown)
+    
+    
+//     si je choisi l'option 1 je veux voir afficher a
+//     si je choisi l'option 2 je veux voir afficher b
+//     si je choisi l'option 3 je veux voir afficher c
+
+//     le message est un id donc dans quiery c'est (#message) est dans p
+// -->

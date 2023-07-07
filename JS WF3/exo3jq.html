@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Exemple d'exercice simple sur jQuery</title>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="exo3.js" defer></script>
+</head>
+
+<body>
+  <h2>Formulaire de connexion</h2>
+  <form id="loginForm">
+    <label for="username">Nom d'utilisateur:</label>
+    <input type="text" id="username" name="username">
+
+    <label for="password">Mot de passe:</label>
+    <input type="password" id="password" name="password">
+
+    <input type="submit" value="Se connecter">
+  </form>
+  <p id="errorMessage"></p>
+
+  <!-- objectif afficher le message veuillez remplir tous les champs dans le paragraphe qui a l'id errorMessage -->
+  <!-- a la soumission du formulaire verifier si tous les champs sont remplis (username, password) si l'un d'entre eux est vide
+afficher le message veuillez remplir tous les champs -->
+  <!-- si les deux champs sont remplis c'est bon on fait rien -->
+
+  <script>
+
+
+
+    $("#loginForm").on("submit", function (e) {
+
+      if ($('#username').val() === '' || $('#password').val() === '') {
+
+        $("#errorMessage").text("Veuillez remplir tous les champs: ");
+        e.preventDefault(); 
+      }
+
+      document.getElementById
+
+var username = ""
+var password = ""
+      bouton.addEventListener('submit', e=>)
+if (username===''||password ===''){
+  
+
+}
+
+
+    })
+
+
+  </script>
+
+
+</body>
+
+</html>

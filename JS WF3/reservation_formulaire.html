@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <form action="">
+        <div>
+            <input type="radio" value="pomme" id="choix1"> <label for="">Pomme</label>
+            <input type="radio" value="banane" id="choix2"> <label for="">Banane</label>
+        </div>
+    </form> -->
+    <div style="width: 800px; margin: auto;">
+        <form style="width: 75%; margin: auto;" action="">
+            <h1 style="text-align: center;">Formulaire de réservation</h1>
+
+            <div class="div_parent">
+                <input class="input_case" type="text" id="nom;" placeholder="nom">
+            </div>
+            <div class="div_parent">
+                <input class="input_case" type="email" id="email" placeholder="email">
+            </div>
+            <div class="div_parent">
+                <input class="input_case" type="number" id="telephone" placeholder="telephone">
+            </div>
+
+            <div style="width: 75%; margin: auto;">
+                <select style=" border-radius: 5px; border: solid 2px; padding: 4px 0px" name="" id="Plat">
+                    <option value="">choisir un plat</option>
+                    <option value="15">thiebou dieune</option>
+                    <option value="12">salade de quinoa</option>
+                    <option value="11">sushi burger</option>
+                    <option value="9">filets de poulet panes</option>
+                </select>
+
+                <select style="border-radius: 5px; border: solid 2px; padding: 4px 0px" name="dessert" id="dessert">
+                    <option value="">choisir un dessert</option>
+                    <option value="thiebou dieune">churros maison</option>
+                    <option value="salade de quinoa">biscuits au pepites</option>
+                    <option value="sushi burger">magnum</option>
+                    <option value="filets de poulet panes">gateau au fromage</option>
+                </select>
+            </div>
+            <br>
+
+            <div style="width: 75%; margin: auto;">
+                <input style="border-radius: 5px; border: solid 2px; padding: 4px 1.5px 5px 0px" type="text"
+                    id="Total_ht" placeholder="Total ht">
+                <input style=" border-radius: 5px; border: solid 2px; padding: 4px 1.5px 5px 0px;" type="text"
+                    id="Total_ttc" placeholder="Total ttc" value="faissal">
+            </div>
+            <br>
+
+            <div>
+                <input type="checkbox" id="condition_coche" name="" value="">
+                <label for="condition_lab" style="font-size: 15px;font-weight: bold;"> J’accepte les conditions
+                    générales</label>
+            </div>
+
+            <div style="margin-top: 20px;display: flex; justify-content: end;">
+                <input id="valid"
+                    style="background-color: white; border-radius: 5px; border: solid 2px; padding: 4px 25px; "
+                    type="submit" value="valider ma commande">
+            </div>
+
+
+
+
+
+
+        </form>
+
+    </div>
+    </fieldset>
+
+
+
+
+
+
+
+    <script src="formulaire_reservation.js"></script>
+</body>
+
+</html>

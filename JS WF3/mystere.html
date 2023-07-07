@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div>
+        <h1>trouver le nombre mystere</h1>
+        <p>vous avez 7 essais maximum pour trouver le nombre</p>
+
+
+
+        <form id="form">
+            <button id="but1">Nouveau Jeu</button>
+            <button id="but2">Solution</button>
+            <button id="but3">Proposer</button>
+
+            <fieldset>
+                <div>
+                    <label for="Proposition"> Proposition:</label>
+                    <input type="text" id="proposition">
+                </div>
+                <br>
+                <div> <label for="N°essaie:"> N°essaie</label>
+                    <input type="text" id="n_essaie" value="0" disabled>
+                </div>
+                <br>
+                <div> <label for="Message:">Message </label>
+                    <input type="text" id="message" disabled>
+                </div>
+                <br>
+                <div> <label for="Reponses:">Réponses</label>
+                    <input type="text" id="reponse" disabled>
+                </div>
+            </fieldset>
+
+        </form>
+    </div>
+
+    <!-- . je propose 2
+    . il y a 7 essaie
+    numéro essai est 0 au début 
+    mon premiere essaie si il se trompe 
+    
+    .les messages a afficher sont :
+    Vous y êtes presque le chiffre est en dessous
+    Vous y êtes presque le chiffre est au dessus 
+    vous avez reussi bravo!
+    erreur
+     -->
+    <script src="mystere.js"></script>
+</body>
+
+</html>

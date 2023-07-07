@@ -1,15 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-   <script src="fonct.js" defer></script> 
-   <script src="index.js" defer></script>
-    
+    <title>Exercice DOM</title>
+    <!-- <script src="fonct.js" defer></script> 
+   <script src="index.js" defer></script> -->
+    <script src="poo.js" defer></script>
+
+
+    <style>
+        .red {
+            color: red;
+        }
+
+        .blue {
+            color: blue;
+        }
+
+        .bouton {
+            padding: 10px;
+            border-radius: 15px;
+            border: solid 2px;
+        }
+    </style>
+
+
+
+
+
+
+
+
 </head>
+
 <body>
-    
+    <div id="container">
+        <h1 class="title">Titre de la page</h1>
+        <p class="content">Contenu de la page</p>
+        <button id="btn">Cliquez ici</button>
+        <div class="title"></div>
+    </div>
+
+
+
+    <script>
+        // Votre code JS sera écrit ici
+
+        var element = document.getElementsByClassName("title");
+        element[0].classList.add("red");
+
+        var element1 = document.getElementsByClassName("content");
+        element1[0].className="blue";
+
+        var element2 = document.getElementById("btn");
+        elementclassName = 'bouton';
+
+
+
+
+
+
+    </script>
 </body>
+
 </html>
